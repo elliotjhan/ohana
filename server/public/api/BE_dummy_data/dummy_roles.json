@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "parent",
+        "description": "dad"
+    },
+    {
+        "id": 2,
+        "name": "parent",
+        "description": "mom"
+    },
+    {
+        "id": 3,
+        "name": "caretaker",
+        "description": "daycare teacher"
+    }
+]

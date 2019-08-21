@@ -1,0 +1,49 @@
+{
+  "name": "ohana",
+  "version": "1.0.0",
+  "description": "For new parents to keep track of newborn info and important events",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config server/server.js",
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode=production",
+    "watch": "nodemon -r dotenv/config server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonykjin/Ohana.git"
+  },
+  "author": "Tony K Jin, Nick Simoncelli, Steve Min, Bisham Mohabir, Elliot Han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonykjin/Ohana/issues"
+  },
+  "homepage": "https://github.com/tonykjin/Ohana#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
+    "cors": "^2.8.5",
+    "date-fns": "^1.30.1",
+    "date-fns-tz": "^1.0.7",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-chartjs-2": "^2.7.6",
+    "react-dom": "^16.8.6",
+    "react-transition-group": "^4.2.2",
+    "reactstrap": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
