@@ -1,5 +1,5 @@
 # Ohana Tracker New Parent Application
-## Live Demo: [Link](https://ohanatracker.com)
+## Live Demo: [Link](http://www.ohanatracker.com)
 
 ![Image](ohanatracker.gif)
 
